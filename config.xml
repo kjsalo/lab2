@@ -13,4 +13,5 @@
     </author>
 	<icon src="icon.png" />
 	<gap:plugin name="org.apache.cordova.media-capture" version="0.3.3" />
+	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
 </widget>
