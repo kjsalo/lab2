@@ -20,5 +20,8 @@ function onSuccess(imageURI) {
 }
 
 function onFail(message) {
-    alert('Failed because: ' + message);
+    var msg = 'An error occurred during capture: ' + message;
+    navigator.notification.alert(msg, alerting, 'Not good', 'Done');
+}
+function alerting(){
 }
